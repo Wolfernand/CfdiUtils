@@ -51,6 +51,9 @@ with `http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalD
 The assert `TFDSELLO01` *El Sello SAT del Timbre Fiscal Digital corresponde al certificado SAT*, now includes the
 exception message when unable to obtain a certificate.
 
+- On AppVeyor CI remove chocolately downgrade. Issue <https://github.com/chocolatey/choco/issues/1843> is solved.
+
+
 ## Version 2.12.9 2020-04-25
 
 - Review and fix `CreateComprobantePagosCaseTest`.
